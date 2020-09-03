@@ -1,0 +1,17 @@
+program :
+
+
+array = [2, 3, 4, 5, 3, 4, 6, 2] 
+print ("The original list is : " +  str(array)) 
+res = [] 
+for i in array: 
+    if i not in res: 
+        res.append(i)  
+print ("The list after removing duplicates : " + str(res))
+
+
+
+output :
+
+The original list is : [2, 3, 4, 5, 3, 4, 6, 2]
+The list after removing duplicates : [2, 3, 4, 5, 6]
